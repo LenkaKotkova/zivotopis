@@ -1,40 +1,53 @@
 body {
     color: #282425;
-    background-color: #EEA5A6;
-    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+    font-family: "Quicksand", sans-serif;
     font-size: 20px;
     line-height: 1.5;
+    margin: 0;
 }
+
 
 h1,
 h2,
 h3,
 a {
-    color: #8E7AB5;
+    color: #363850;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Quicksand",'Playfair Display', serif;
     font-style: italic; 
 }
 
 h1 {
     font-size: 80px;
     text-align: center;
+    margin: 0;
+    color: white;
+    text-shadow: 0 3px 10px rgba(0,0,0,7)
     
 }
 
 h2 {
     font-size: 48px;
     text-align: center;
-    background-color: #B784B7;
-}
+    background-color: #b0b1c6;
+    margin: 10px 0;
+    padding: 0;
+   }
 
 h3 {
     font-size: 24px;
-    font
+    margin: 0;
+    color: #b0b1c6;
+}
+
+.soucasnost {
+    margin 0;
+    padding: 0;
 }
 
 a {
@@ -49,11 +62,83 @@ a {
     
 }
 
+.adresa {
+    margin-top: 100px
+}
+
 .paticka {
-    background-color: #8E7AB5;
+    background-color: #363850;
     color: white;
     text-align: center;
+    padding: 10px 0;
 }
+
+.foto-kontakt {
+    width: 200px;
+    border-radius: 50px 50px 50px 50px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+
+th,
+td {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.tabulka {
+    padding-left: 10px;
+    border-spacing: 0px;
+}
+
+.tabulkaB {
+    
+    border-spacing: 0px;
+    border-bottom: 0;
+}
+
+section {
+    padding: 10px 15%;
+    overflow:auto;
+}
+
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(U_rybniku.jpg); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    background-color: #363850;
+}
+
+.menu li {
+display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #797b8a;
+}
+
+.odsazeni {
+    margin-left: 20px;
+}
+
 
 /*
 font-family: 'Raleway', sans-serif;

@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lenčin životopis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-      <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -16,14 +17,22 @@
         <h1>Lenka Kotková</h1>
   </header>
 
+  <!-- Menu -->
+  <ul class="menu">
+    <li><a href="#kontakt">Kontakt</a></li>
+    <li><a href="#vzdelani">Vzdělání</a></li>
+    <li><a href="#zkusenosti">Pracovní zkušenosti</a></li>
+    <li><a href="#jazyky">Jazyky</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ul>
 
     <!-- Sekce Kontakt-->
-  <section class="kontakt">  
+  <section class="kontakt" id="kontakt">  
     <h2>Kontakt</h2>
 
-    <img src="Lenka.jpg" alt="foto Lenky Kotkové">
+    <img class="foto-kontakt" src="Lenka.jpg" alt="foto Lenky Kotkové">
     
-    <p>Brno, Česká Republika  <br>
+    <p class="adresa">Brno, Česká Republika  <br>
         tel.: + 420 605 961 092 <br>
         e-mail: <a href="mailto:lenka.nejedla@gmail.com">lenka.nejedla"zavináč"gmail.com</a> <br>
         LinkedIn: <a href="https://www.linkedin.com/in/lenka-kotkov%C3%A1-70ab9672">Lenka Kotková</a> <br>
@@ -33,94 +42,132 @@
     
     
     <!-- Sekce Vzdělání -->
-  <section class="vzdelani">    
+  <section class="vzdelani" id="vzdelani">    
     <h2>Vzdělání</h2>
-    
-   <h3> 2009-2014</h3>
-   <p>
-    <b>Postgraduální studium</b> (nedokončené) MU <br>
-    <ul>
-        <li>Fakulta sportovních studií</li>
-        <li>Kinantropologie</li>
-        <li>Projekty:
-            <ul>
-                <li>Senior-Fitness Program: Vliv tance na stabilitu a reakci na klienty v seniorském věku</li>
-            </ul>
-        </li>
-    </ul>
-   </p>
-   <h3> 2004-2009</h3>
-   <p>
-    <b>Magisterský studijní program</b> MU <br>
-    <ul>
-        <li>Fakulta sportovních studií</li>
-        <li>Učitelství tělesné výchovy a sportu</li>
-        <li>Regenerace a výživa ve sportu</li>
-    </ul>
-   </p>
-     
+   
+   <table class="tabulka">
+    <tr>
+        <td><h3>2009-2014</h3></td>
+        <td class="tabulka"><p class="odsazeni"><b>Postgraduální studium</b> (nedokončené) MU</p> 
+          <ul>
+            <li>Fakulta sportovních studií</li>
+            <li>Kinantropologie</li>
+            <li>Projekty:
+                <ul>
+                    <li>Senior-Fitness Program: Vliv tance na stabilitu a reakci na klienty v seniorském věku</li>
+                </ul>
+            </li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+      <td><h3>2004-2009</h3></td>
+      <td class="tabulka"><p class="odsazeni"><b>Magisterský studijní program</b> MU </p>
+        <ul>
+          <li>Fakulta sportovních studií</li>
+          <li>Učitelství tělesné výchovy a sportu</li>
+          <li>Regenerace a výživa ve sportu</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
   </section>
 
     
     <!-- Sekce Pracovní zkušenosti -->
-  <section class="zkusenosti">    
+  <section class="zkusenosti" id="zkusenosti">    
     <h2>Pracovní zkušenosti</h2>
-    <h3> 2023 - současnost - <i>RMU</i></h3>
-    <p>
-     <b>Editorka a konzultantka webových stránek</b> MU <br>
-     <ul>
-         <li>Editace textů, fotodokumentace, grafické práce,</li>
-         <li>práce v redakčním systému Umbraco,</li>
-         <li>jednání s klienty, helpdesk.</li>
-     </ul>
-    </p>
-    <h3> 05-08 2023 - <i>Virtual Visit</i></h3>
-    <p>
-     <b>Editorka a konzultantka webových stránek</b> MU <br>
-     <ul>
-         <li>Editace textů, fotodokumentace, grafické práce,</li>
-         <li>jednání s klienty, helpdesk.</li>
-     </ul>
-    </p>
-    <p>
-        <h3> 2022 - současnost - <i>KaVeEska</i></h3><br> 
-        <h3> 2021 - současnost - <i>KD Rubín</i></h3><br> 
-        <h3> 2014 - současnost - <i>Stabil Studio</i></h3><br> 
-        <h3> 2008 - současnost - <i>Filiánek</i></h3><br> 
-    </p>
-    <p>
-        <b>Lektorka kompenzačního cvičení nejen pro seniory</b> <br>
-     <ul>
-         <li>Pilates, pánevní dno, psychomotorika, žonglování, tanec,</li>
-         <li>úprava hudby a videa, tvorba choreografií,</li>
-         <li>administrativa kurzů.</li>
-     </ul>
-    </p>
-       
+   
+    <table class="tabulka">
+      <tr>
+          <td><h3> 2023 - současnost - <i>RMU</i></h3></td>
+          <td class="tabulka"><p class="odsazeni"><b>Editorka a konzultantka webových stránek</b> MU </p>
+            <ul>
+                <li>Editace textů, fotodokumentace, grafické práce,</li>
+                <li>práce v redakčním systému Umbraco,</li>
+                <li>jednání s klienty, helpdesk.</li>
+            </ul>
+          </td>
+      </tr>
+      <tr>
+        <td><h3> 05-08 2023 - <i>Virtual Visit</i></h3></td>
+        <td class="tabulka"><p class="odsazeni"><b>Editorka a konzultantka webových stránek</b></p>
+          <ul>
+              <li>Editace textů, fotodokumentace, grafické práce,</li>
+              <li>práce v redakčním systému Kentico,</li>
+              <li>jednání s klienty, helpdesk.</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+      <td><h3 class="soucasnost"> 2022 - současnost - <i>KaVeEska</i></h3><br> 
+        <h3 class="soucasnost"> 2021 - současnost - <i>KD Rubín</i></h3><br> 
+        <h3 class="soucasnost"> 2014 - současnost - <i>Stabil Studio</i></h3><br> 
+        <h3 class="soucasnost"> 2008 - současnost - <i>Filiánek</i></h3><br> 
+      </td>
+      <td class="tabulka"><p class="odsazeni"><b>Lektorka kompenzačního cvičení nejen pro seniory</b></p>
+        <ul>
+          <li>Pilates, pánevní dno, psychomotorika, žonglování, tanec,</li>
+          <li>úprava hudby a videa, tvorba choreografií,</li>
+          <li>administrativa kurzů.</li>
+        </ul>
+      </td>
+  </tr>
+    </table>
+   
    
   </section>    
     
     <!-- Sekce Jazyky -->
-  <section class="jazyky">
+  <section class="jazyky" id="jazyky">
     <h2>Jazyky</h2>
    
      <p>
-        <b>Čeština:</b> rodilý mluvčí<br>
-        <b>Angličtina:</b> C1 (certifikace ESOL FCE)<br>
-        <b>Němčina:</b> B2<br>
+       
+        <table>
+          <tr>
+              <th class="tabulkaB">Čeština:</th>
+              <td class="tabulkaB">rodilý mluvčí</td>
+          </tr>
+          <tr>
+              <th class="tabulkaB">Angličtina:</th>
+              <td class="tabulkaB">C1 (certifikace ESOL FCE)</td>
+          </tr>
+          <tr>
+              <th class="tabulkaB">Němčina:</th>
+              <td class="tabulkaB">B2</td>
+          </tr>
+        </table>
+
     </p>
     
-     </section>
+  </section>
     
    
     <!-- Sekce Skills -->
-    <section class="skills">
+    <section class="skills" id="skills">
         <h2>Skills</h2>
        
          <p>
-            <b>MS Office:</b> intermediate<br>
-            <b>Google Apps, Canva, Photoshop</b><br>
-            <b>Řidičský průkaz skupiny B</b><br>
+            <table>
+              <tr>
+                  <th class="tabulkaB" >MS Office:</th>
+                  <td class="tabulkaB">intermediate</td>
+              </tr>
+              <tr>
+                  <th class="tabulkaB">Google Apps:</th>
+                  <td class="tabulkaB">"BFU"</td>
+              </tr>
+              <tr>
+                <th class="tabulkaB">Canva, Photoshop:</th>
+                <td class="tabulkaB">"BFU"</td>
+            </tr>
+              <tr>
+                  <th class="tabulkaB">Řidičský průkaz skupiny B:</th>
+                  <td class="tabulkaB">"matka se dvěma dětmi"</td>
+              </tr>
+            </table> 
         </p>
         
          </section>
